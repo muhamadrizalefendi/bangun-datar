@@ -1,0 +1,114 @@
+#include <stdio.h>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char **argv)
+{
+    int a,t,LS,p,l,LP,KP,aj,tj,sm,LJ,KJ,A,B,C,D,tt,sj,LT,KT,s1,s2,d1,d2,LL,KL,db1,db2,sb,LB,KB;
+//RUMUS SEGITIGA
+    printf("MACAM-MACAM RUMUS BANGUN DATAR \n");
+    printf("1. rumus segitiga\n");
+    cout<<"silahkan masukkan alas segitiga=";
+    cin>>a;
+    cout<<"silahkan masukkan tinggi segitiga=";
+    cin>>t;
+    
+    LS=a*t/2;
+    cout<<"hasil luas segitiga="<<LS;
+    cout<<"\n";
+//rumus persegi panjang    
+    printf("2. rumus persegi panjang \n");
+    cout<<"silahkan masukkan panjang persegi panjang=";
+    cin>>p;
+    cout<<"silahkan masukkan lebar persegi panjang=";
+    cin>>l;
+    
+    LP=p*l;
+    cout<<"hasil luas persegi panjang="<<LP;
+    cout<<"\n";
+    KP=2*p+2*l;
+    cout<<"hasil keliling persegi panjang="<<KP;
+    cout<<"\n";
+// rumus jajar genjang
+    printf("3. RUMUS JAJAR GENJANG \n");
+    cout<<"silahkan masukkan alas jajar genjang=";
+    cin>>aj;
+    cout<<"silahkan masukkan tinggi jajar genjang=";
+    cin>>tj;
+    cout<<"silahkan masukkan sisi miring=";
+    cin>>sm;
+    
+    LJ=aj*tj;
+    cout<<"hasil luas jajar genjang="<<LJ;
+    cout<<"\n";
+    
+    KJ=2*aj+2*sm;
+    cout<<"hasil keliling jajar genjang="<<KJ;
+    cout<<"\n";
+//rumus trapesium
+    printf("4. RUMUS TRAPESIUM \n");
+    cout<<"silahkan masukkan sisi A dari trapesium=";
+    cin>>A;
+    cout<<"silahkan masukkan sisi B dari trapesium=";
+    cin>>B;
+    cout<<"silahkan masukkan sisi C dari trapesium=";
+    cin>>C;
+    cout<<"silahkan masukkan sisi D dari trapesium=";
+    cin>>D;
+    cout<<"silahkan masukkan tinggi dari trapesium=";
+    cin>>tt;
+    
+    sj=A+B;
+    cout<<"hasil dari jumlah sisi sejajar="<<sj;
+    cout<<"\n";
+    
+    LT=sj*tt/2;
+    cout<<"hasil luas trapesium="<<LT;
+    cout<<"\n";
+    
+    KT=A+B+C+D;
+    cout<<"hasil keliling dari trapesium="<<KT;
+    cout<<"\n";
+
+//rumus layang layang
+    printf("5. RUMUS LAYAMG-LAYANG \n");
+    cout<<"silahkan masukkan sisi 1 dari layang-layang=";
+    cin>>s1;
+    cout<<"silahkan masukkan sisi 2 dari layang-layang=";
+    cin>>s2;
+    cout<<"silahkan masukkan diagonal vertikal dari layang-layang=";
+    cin>>d1;
+    cout<<"silahkan masukkan diagonal horizontal dari layang-layang=";
+    cin>>d2;
+    
+    LL=d1*d2/2;
+    
+    cout<<"hasil luas dari layang-layang="<<LL;
+    cout<<"\n";
+    
+    KL=2*s1+2*s2;
+    
+    cout<<"hasil keliling dari layang-layang="<<KL;
+    cout<<"\n";
+//rumus belah ketupat
+    printf("6. RUMUS BELAH KETUPAT \n");
+    cout<<"silahkan masukkan diagonal 1 dari belah ketupat=";
+    cin>>db1;
+    cout<<"silahkan masukkan diagonal 2 dari belah ketupat=";
+    cin>>db2;
+    cout<<"silahkan masukkan sisi dari belah ketupat=";
+    cin>>sb;
+    
+    LB=db1*db2/2;
+    
+    cout<<"hasil luas dari belah ketupat="<<LB;
+    cout<<"\n";
+    
+    KB=4*sb;
+    
+    cout<<"hasil keliling dari belah ketupat="<<KB;
+    
+    
+    
+}
